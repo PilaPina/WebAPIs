@@ -1,0 +1,50 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    max-width: 800px;  
+}
+
+.carousel-frame {
+    max-width: 430px;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    position: relative; 
+    transition: transform 0.8s ease-in-out;
+}
+
+.carousel-slide img {
+    width: 400px;
+    padding: 15px;
+    
+}
+
+/* styling buttons */
+#prevBtn, #nextBtn {
+    background-color: rgb(210, 193, 226);
+    border-radius: 20%;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    color: rgb(33, 10, 54);
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    color: rgb(33, 10, 54);
+    margin: 0;
+    padding: 0;
+
+}
