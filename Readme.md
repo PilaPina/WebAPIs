@@ -1,15 +1,17 @@
-Javascript In The Browser - Web APIs
+Typescript In The Browser - Web APIs
 
-Project requirements:
+There are two web APIs that I use. 
+1. Web Carousel API
+ - It creates a basic image carousel with previous and next navigation buttons. It uses JavaScript to control the visibility of slides within the container by changing the transform property to achieve the sliding effect.
+2. Web Speech API (Text-to-Speech)
+- It will synthesize a voice, e.g. read outloud a selected text, when a button is pushed. The code effectively toggles between starting and stopping speech synthesis when you click the button and updates the button's text accordingly to inform the user about the action to be taken.
 
-Submit:
-1. GitHub Repository + GitHub Pages (or equivalent) URLs
-   - Add comments for each function explaining what it does and from what API it comes
-2. Project description and details (along with what APIs you used in the README.md file
+Got the idea for the speech synthesizer here https://developer.mozilla.org/en-US/docs/Web/API, and the carousel idea from the guideline examples.   
 
-Minimum requirements:
-1. A website that uses at least 2 different APIs
-2. Use as many features of the API as you can
+
+
+
+
 
 WHAT IS A WEB API?
 

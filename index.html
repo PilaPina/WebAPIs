@@ -7,29 +7,46 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="carousel-container">
+    <header>
         <div>
-            <h1>IMAGE CAROUSEL</h1>
+            <h1>WEB APIs</h1>
+            <h2>text missing </h2>
         </div>
-        <div class="carousel-frame">
-            <div class="carousel-slide">
-                <img src="images/IMG_20121124_194216.jpg" alt="stuffed fox on a clothesline">
-                <img src="images/IMG_20130816_192459.jpg" alt="a cut off braid">
-                <img src="images/IMG_20130310_121658.jpg" alt="mix of colors">
-                <img src="images/IMG_20121124_214556.jpg" alt="board game miniatures">
-                <img src="images/IMG_20130609_232248.jpg" alt="close view of board game">
-                <img src="images/IMG_20130717_010642.jpg" alt="multicolored cupboard handles">
+    </header>
+    <div class="main-container"> 
+        <div class="carousel-container">
+            <div>
+                <h2>IMAGE CAROUSEL</h2>
+            </div>
+            <div class="carousel-frame">
+                <div class="carousel-slide">
+                    <img src="images/IMG_20121124_194216.jpg" alt="stuffed fox on a clothesline">
+                    <img src="images/IMG_20130816_192459.jpg" alt="a cut off braid">
+                    <img src="images/IMG_20130310_121658.jpg" alt="mix of colors">
+                    <img src="images/IMG_20121124_214556.jpg" alt="board game miniatures">
+                    <img src="images/IMG_20130609_232248.jpg" alt="close view of board game">
+                    <img src="images/IMG_20130717_010642.jpg" alt="multicolored cupboard handles">
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prevBtn">PREVIOUS</button>
+                <button id="nextBtn">NEXT</button>
             </div>
         </div>
-        <div class="buttons">
-            <button id="prevBtn">PREVIOUS</button>
-            <button id="nextBtn">NEXT</button>
+        <div class="speech-container">
+                <div class="sound-button">
+                    <img src="images/sound-on.svg" alt="sound-on icon">
+                    <button id="speak-this">READ OUTLOUD</button>
+                </div>
+                <div class="text-container">
+                    <p class="read-this">
+                            This is a speech synthesizer. It will read this text outloud for you when you press the button above. I wanted it to have a stop and start function on just one button and after many many failed attempts, that included loads of googling, long conversations with chatbots, and a lot of frustration about compile errors, it finally worked. I wanted the 'sound-on' icon to be animated or even attach a function to it so that you could turn the sound on and off by clicking it but I've run out of time. Next time for sure. 
+                            Here beside this text is an image carousel which is also a web API. That took some time too and I ran into a lot of concepts that I wasn't quite familiar with. 
+                            Also I had issues with the carousel showing one image at a time and was sure that was something in the TS. But no.... it was just a CSS error on my part: totally forgot to set the 'overflow' to 'hidden' on my carousel frame.    
+                    </p>
+                </div>    
         </div>
-        <div class="animation-box">
-
-        </div>
-    </div>
+    </div>    
     <script src="main.js"></script> 
 </body>
 </html>
