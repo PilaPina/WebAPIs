@@ -1,11 +1,11 @@
 Typescript In The Browser - Web APIs
 
 1. Web Carousel API
- - It creates a basic image carousel with previous and next navigation buttons. It uses JavaScript to control the visibility of slides within the container by changing the transform property to achieve the sliding effect.
+  It creates a basic image carousel with previous and next navigation buttons. It uses JavaScript to control the visibility of slides within the container by changing the transform property to achieve the sliding effect.
 2. Web Speech API (Text-to-Speech)
-- It will synthesize a voice, e.g. read outloud a selected text, when a button is pushed. The code effectively toggles between starting and stopping speech synthesis when you click the button and updates the button's text accordingly to inform the user about the action to be taken.
+ It will synthesize a voice, e.g. read outloud a selected text, when a button is pushed. The code effectively toggles between starting and stopping speech synthesis when you click the button and updates the button's text accordingly to inform the user about the action to be taken.
 3. Canvas API
-- provides a means for drawing graphics via JavaScript and the HTML <canvas> element. Among other things, it can be used for animation, game graphics, data visualization, photo manipulation, and real-time video processing. 
+ Provides a means for drawing graphics via JavaScript and the HTML <canvas> element. Among other things, it can be used for animation, game graphics, data visualization, photo manipulation, and real-time video processing. 
 I've used it for drawing a circle and a rectangle. 
 
 Found the Speech Web API and the Canvas API here https://developer.mozilla.org/en-US/docs/Web/API, and the carousel idea from the guideline examples.  
@@ -15,6 +15,7 @@ Found the Speech Web API and the Canvas API here https://developer.mozilla.org/e
 <br>
 <br>
 <br>
+
 WHAT IS A WEB API?
 
 TypeScript/JavaScript can be seen as the raw ingredients. They provide the basic building blocks - variables, functions, loops, conditionals, etc. - that you can use to create a wide variety of programs. Just like with cooking, you can combine these ingredients in countless ways to create different dishes (or in this case, applications).
